@@ -1,0 +1,215 @@
+@media screen and (max-width:760px) {
+
+/* Header  */
+
+header {
+    height: 250px;
+}
+
+/* NavBar  */
+
+.nav-item {
+    display: none;
+}
+
+/* Logo  */
+
+.logo {
+    height: 35px;
+    margin-left: 25px;
+}
+
+/* Text  */
+
+.header-text  {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.header-text h2 {
+    font-size: 23px;
+    
+}
+
+.header-text p {
+    font-size: 11px;
+}
+/* Image  */
+
+.header-image  {
+    height: 80%;
+    margin-top: -120px;
+}
+
+/* Companies  */
+
+.company-items {
+    font-size: 13px;
+    margin-top: -25px;
+    margin-left: 25px;
+}
+
+/* API-Section  */
+
+.api-heading {
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+
+
+/* Cards  */
+
+.card-active {
+    padding: 10px 10px;
+}
+
+.card {
+    padding: 10px 10px;
+}
+
+.card-logo  {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.card-head-active {
+    font-size: 15px;
+}
+
+
+.card-head {
+    font-size: 15px;
+}
+
+.card-body {
+    font-size: 10px;
+  }
+
+  
+  /* Blog-Section  */
+
+.blog-heading  {
+    font-size: 10px;
+}
+
+
+/* Blogs  */
+
+.blog-cards {
+    display: flex;
+    flex-direction: column;
+
+}
+.blog-image {
+ 
+    height: 100px;
+    width: 100px;
+}
+.blog-image  img {
+    margin-top: -65px;
+    height: 230px;
+    width: 150px;
+ 
+}
+
+.blog-card  {
+    margin-right: -30px;
+     
+   }
+   
+ 
+   .blog-content h3 {
+       font-size: 15px;
+   }
+   
+   .blog-content small {
+       font-size: 15px;
+       
+   }
+   
+   .blog-author b {
+       font-size: 15px;
+   }
+   
+
+/* FAQ-Section  */
+
+
+.faq-section {
+    height: 200px;
+}
+.faq-content h2 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.faq-content h4  {
+font-size: 13px;
+}
+
+.faq-content h4:nth-child(3){
+    margin-top: 5px;
+    font-size: 15px;
+  
+  }
+
+  .faq-content button {
+    margin-top: 5px;
+  }
+
+.faq-image img{
+ height: 200px;
+ width: 200px;
+}
+
+
+
+/* Download  */
+
+.download-section {
+    display: flex;
+    flex-direction: column;
+  
+
+    padding: 10px 10px;
+}
+
+.download-email {
+    width: 60%;
+    margin-left: -20px;
+}
+.download-content {
+    margin-left: 80px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Footer-Section  */
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Footer-Left  */
+
+.footer-left {
+    margin-top: -50px;
+}
+
+
+.logos-list {
+    font-size: 10px;
+}
+
+/* Footer-Right  */
+
+.footer-right {
+    margin-top: 40px;
+}
+  
+
+
+}

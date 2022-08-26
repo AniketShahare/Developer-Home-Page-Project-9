@@ -1,0 +1,441 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Header  */
+
+header {
+  position: relative;
+  background-color: #4f24fe;
+  color: #ffffff;
+  height: 575px;
+
+}
+
+
+/* NavBar  */
+
+nav {
+  color:#feeffe;
+  display: flex;
+position: absolute;
+right: 0;
+gap: 35px;
+padding: 25px 0;
+margin-right: 70px;
+align-items: center;
+font-size: 15px;
+}
+
+.nav-item-active {
+  color: #4617fe;
+  border-radius: 2px;
+  background-color: #f4e6f4;
+  font-weight: 550;
+  padding: 3px 9px;
+}
+
+
+nav svg {
+  height: 20px;
+  width: 20px;
+}
+
+/* Logo  */
+
+.logo {
+  margin: 40px 70px;
+  height:50px;
+}
+
+/* Text  */
+
+
+.header-text {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.header-text img {
+  width: 70px;
+}
+
+
+.header-text h2{
+  margin-top: 10px;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.header-text p {
+  color:#efe5ef;
+  font-size: 20px;
+}
+
+/* Image  */
+
+.header-image {
+  position: absolute;
+  margin-top: -280px;
+  right: 0;
+  height: 107%;
+}
+
+/* Companies  */
+
+
+.companies {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 40px;
+  
+
+}
+
+.company-items {
+  font-size: 20px;
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+
+}
+/* API-Section  */
+
+.api  {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 800px;
+
+  
+}
+
+
+/* Cards  */
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  
+
+}
+
+.cards::after{
+  color: #ffffff;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+content: ">";
+position: absolute;
+height: 50px;
+width: 50px;
+background-color: #4617fe;
+right: 0;
+align-self: center;
+border-radius: 50%;
+}
+
+.card-active {
+ box-sizing: border-box;
+ background-color: rgb(237, 230, 230);
+ border-radius: 10px;
+ padding: 50px 50px;
+ margin-right: 10px;
+}
+
+.card {
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 50px 50px;
+  margin-right: 10px;
+}
+
+.card-logo {
+  height: 55px;
+width: 55px;
+margin-top: -10px;
+margin-bottom: 10px;
+}
+
+.card-head-active {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.card-head {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  font-size: 15px;
+}
+
+
+/* Blog-Section  */
+
+
+.blog-heading {
+  margin-left: 40px;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 800px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.blog-cards {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 100px;
+  gap: 80px;
+  
+   
+}
+
+.blog-card {
+  display: grid;
+   margin-top: 20px;
+  border-radius: 10px;
+  border-top-left-radius: 40%;
+  padding-right: 30px;
+  background-color: rgb(244, 230, 230);
+  grid-template-areas: 
+  'image image b-content b-content b-content'
+  'image image b-content b-content b-content'
+  'image image b-bottom author author';
+  align-items: center;
+  gap: 20px;
+}
+
+.blog-image {
+  display: inline-block;
+}
+.blog-content{
+grid-area: b-content;
+
+}
+
+.blog-content h6 {
+  color: #4f24fe;
+  margin-bottom: 15px;
+ 
+}
+.blog-content h3 {
+  font-weight: 1000;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.blog-bottom{
+grid-area: b-bottom;
+}
+
+
+.blog-author{
+grid-area: author;
+
+}
+
+
+.blog-image{
+  grid-area: image;
+  margin-right: 30px;
+  height: 340px;
+
+}
+.blog-image img{
+  height: 340px;
+}
+
+
+/* FAQ-Section  */
+
+.faq-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  background-color: rgb(241, 239, 239);
+}
+
+.faq-content {
+  margin-left: 60px;
+}
+
+.faq-content h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 900px;
+  margin-top: 20px;
+}
+
+.faq-content {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.faq-content h4:nth-child(3){
+  margin-top: 30px;
+  font-size: 15px;
+
+}
+
+.faq-content button {
+
+  margin-top: 18px;
+  color: #ffffff;
+  background-color: #4617fe;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Download  */
+
+
+.download-section {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.download-content {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.download-content h1 {
+  font-weight: 1000;
+  font-family: sans-serif;
+}
+
+.download-content span {
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.download-email form {
+  display: flex;
+  align-items: center;
+}
+
+.download-email form button {
+ font-size: 15px;
+ color: #ffffff;
+ background-color: #4a1dfe;
+ border: none;
+ padding: 15px 50px;
+ border-radius: 50px;
+ cursor: pointer;
+ z-index: 2;
+}
+
+.download-email form input {
+  position: relative;
+  left: 40px;
+ font-size: 20px;
+ box-sizing: border-box;
+ padding: 10px 50px;
+ border: none;
+ border-radius: 40px;
+ background-color: rgb(226, 232, 237);
+ width: 500px;
+ 
+}
+
+/* Footer-Section  */
+
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 100px 70px;
+  background-color: rgb(42, 34, 200);
+}
+
+/* Footer-Left  */
+
+
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  color: #ffffff;
+  gap: 40px;
+  margin-left: 15px;
+  list-style: none;
+  
+  width: 100%;
+}
+
+
+
+.list>li:nth-child(2)~li{
+display: flex;
+gap: 18px;
+align-items: center;
+}
+
+.list>li:nth-child(2)~li::before{
+
+content: "";
+display: block;
+height: 12px;
+width: .5px;
+background-color:#feeffe;
+
+
+}
+
+/* Footer-Right  */
+
+
+.footer-logos {
+  padding: 10px;
+  margin-top: -20px;
+}
+
+.logos-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: #ffffff;
+  margin-top: 20px;
+  gap: 15px;
+  font-size: 15px;
+}
+
+
+.logos-list>li:first-child~li{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logos-list>li:first-child~li::before{
+  content:"";
+  display: block;
+  height:12px;
+  width:.5px;
+  background-color:rgb(238, 238, 255);
+}
+

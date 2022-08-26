@@ -1,0 +1,132 @@
+
+@media screen and (max-width:1200px) {
+
+/* Header  */
+
+header {
+    height: 450px;
+}
+
+/* NavBar  */
+
+/* Logo  */
+
+.logo {
+    height: 45px;
+}
+/* Text  */
+
+.header-text h2 {
+    font-size: 45px;
+}
+
+.header-text p {
+    font-size: 18px;
+}
+/* Image  */
+
+.header-image  {
+    height: 107%;
+}
+
+/* Companies  */
+
+.company-items {
+    font-size: 18px;
+}
+
+/* API-Section  */
+
+.api-heading {
+    font-size: 40px;
+}
+
+
+/* Cards  */
+
+.card-active {
+    padding: 30px 30px;
+}
+
+.card {
+    padding: 30px 30px;
+}
+
+.card-logo  {
+    height: 45px;
+    width: 45px;
+}
+
+.card-head-active {
+    font-size: 25px;
+}
+
+
+.card-head {
+    font-size: 25px;
+}
+
+.card-body {
+    font-size: 13px;
+  }
+
+/* Blog-Section  */
+
+.blog-heading  {
+    font-size: 20px;
+}
+
+/* Blogs  */
+
+.blog-card  {
+ margin-right: -30px;
+  
+}
+
+.blog-content h3 {
+    font-size: 15px;
+}
+
+.blog-content small {
+    font-size: 15px;
+    
+}
+
+.blog-author b {
+    font-size: 15px;
+
+}
+
+
+
+/* FAQ-Section  */
+
+.faq-content h2 {
+    font-size: 40px;
+}
+
+.faq-content h4  {
+font-size: 15px;
+}
+
+
+/* Download  */
+
+.download-section {
+    padding: 10px 40px;
+}
+
+.download-content {
+    font-size: 20px;
+}
+/* Footer-Section  */
+
+
+/* Footer-Left  */
+
+
+/* Footer-Right  */
+
+  
+  
+}
